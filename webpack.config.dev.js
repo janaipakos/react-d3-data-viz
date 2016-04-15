@@ -9,7 +9,8 @@ module.exports = {
     entry: [
         'webpack-dev-server/client?http://localhost:' + config.devPort,
         'webpack/hot/only-dev-server',
-        './src/index.jsx'
+        './src/index.jsx',
+        './css/style.less'
     ],
     output: {
         path: path.join(path.resolve(path.dirname()), config.publicFolder),
