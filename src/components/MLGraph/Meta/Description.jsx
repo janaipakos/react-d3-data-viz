@@ -32,7 +32,7 @@ class Description extends Meta {
 
 
             if (USstates.length == 1) {
-                lastYear = this.getAllDataByState(USstates[0], lastYear);
+                lastYear = this.getAllDataByUSState(USstates[0], lastYear);
             }
 
             if (this.props.data.length/lastYear.length > 2) {
