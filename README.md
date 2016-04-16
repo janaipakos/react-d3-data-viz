@@ -1,5 +1,5 @@
-# Money Laundering with React and D3
-Histogram in React and D3 showing domestic money laundering amounts.
+# Data Visualization with React and D3
+Histogram in React and D3 showing developer salaries by state and year.
 
 ## Demo site:
 [https://jamesanaipakos.com/money-laundering-chart](https://jamesanaipakos.com/money-laundering-chart)
@@ -16,7 +16,7 @@ open http://localhost:3000
 ## Features:
 React components with d3 functionality. The description and title changes properties as fields are push from buttons.
 
-## Directory Structure 
+## Directory Structure
 - `src`
 - `build`
 
