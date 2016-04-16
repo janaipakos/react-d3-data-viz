@@ -29529,21 +29529,22 @@
 	                title = _react2.default.createElement(
 	                    'h2',
 	                    null,
+	                    'While working ',
 	                    USstateFragment,
-	                    ', criminals laundered $',
+	                    ', React developers made $',
 	                    format(mean),
-	                    '/year ',
+	                    ' ',
 	                    yearsFragment
 	                );
 	            } else {
 	                title = _react2.default.createElement(
 	                    'h2',
 	                    null,
-	                    'Domestic money launderers ',
+	                    'React developers ',
 	                    yearsFragment.length ? "earned" : "earn",
-	                    ' $',
+	                    ' an average salary of $',
 	                    format(mean),
-	                    '/year ',
+	                    ' ',
 	                    USstateFragment,
 	                    ' ',
 	                    yearsFragment
@@ -42195,7 +42196,7 @@
 	                fragment = void 0;
 	
 	            if (states.length > 1) {
-	                fragment = "US";
+	                fragment = "the US";
 	            } else {
 	                fragment = _StatesMap2.default[states[0].toUpperCase()];
 	            }
@@ -42225,17 +42226,17 @@
 	                yearFragment.length ? yearFragment : "Since 2010",
 	                ', ',
 	                USStateFragment,
-	                ' money launderers ',
-	                yearFragment.length ? "commited" : "have commited",
+	                ' ',
+	                yearFragment.length ? "created" : "created",
 	                ' ',
 	                N,
-	                ' transactions',
+	                ' jobs for React developers',
 	                previousYearFragment,
-	                '. Each laundered amount was between $',
+	                ', who earned between $',
 	                min_salary,
 	                ' and $',
 	                max_salary,
-	                ' per year.'
+	                '.'
 	            );
 	        }
 	    }]);
