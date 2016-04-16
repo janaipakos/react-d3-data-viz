@@ -2,19 +2,19 @@
 Histogram in React and D3 showing developer salaries by state and year.
 
 ## Demo site:
-[https://jamesanaipakos.com/money-laundering-chart](https://jamesanaipakos.com/money-laundering-chart)
+[http://jamesanaipakos.com/react-d3-data-viz](http://jamesanaipakos.com/react-d3-data-viz)
 
 ## How to Use:
 ```bash
-git clone https://github.com/janaipakos/money-laundering-chart.git
-cd money-laundering-chart
+git clone https://github.com/janaipakos/react-d3-data-viz.git
+cd react-d3-data-viz
 npm install
 npm start
-open http://localhost:3000
+open http://localhost:3000 for development and http://localhost:8080 for production
 ```
 
 ## Features:
-React components with d3 functionality. The description and title changes properties as fields are push from buttons.
+React components with d3 functionality. The description and title changes with the displayed data.
 
 ## Directory Structure
 - `src`
@@ -31,14 +31,10 @@ React components with d3 functionality. The description and title changes proper
 ## Build Tools
 - Webpack
 
-## Test Tools
+## Test Tools & Error Handling
 - `eslint`
-
-## Error Handling
-- `eslint`
-
-## Databases
 
 ## Image
+![image.png][1]
 
-[1]:
+[1]: https://raw.github.com/janaipakos/react-d3-data-viz/master/image.png
