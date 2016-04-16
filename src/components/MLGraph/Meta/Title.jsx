@@ -42,11 +42,11 @@ class Title extends Meta {
 
         if (yearsFragment && USstateFragment) {
             title = (
-                <h2>{USstateFragment}, criminals laundered ${format(mean)}/year {yearsFragment}</h2>
+                <h2>While working {USstateFragment}, React developers made ${format(mean)} {yearsFragment}</h2>
             );
         }else{
             title = (
-                <h2>Domestic money launderers {yearsFragment.length ? "earned" : "earn"} ${format(mean)}/year {USstateFragment} {yearsFragment}</h2>
+                <h2>React developers {yearsFragment.length ? "earned" : "earn"} an average salary of ${format(mean)} {USstateFragment} {yearsFragment}</h2>
             );
         }
 

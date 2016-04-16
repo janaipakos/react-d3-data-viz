@@ -66,7 +66,7 @@ class Description extends Meta {
             fragment;
 
         if (states.length > 1) {
-            fragment = "US";
+            fragment = "the US";
         }else{
             fragment = StatesMap[states[0].toUpperCase()];
         }
@@ -87,7 +87,7 @@ class Description extends Meta {
             min_salary = formatter(mean-deviation),
             max_salary = formatter(mean+deviation);
         return (
-            <p className="lead">{yearFragment.length ? yearFragment : "Since 2010"}, {USStateFragment} money launderers {yearFragment.length ? "commited" : "have commited"} {N} transactions{previousYearFragment}. Each laundered amount was between ${min_salary} and ${max_salary} per year.</p>
+            <p className="lead">{yearFragment.length ? yearFragment : "Since 2010"}, {USStateFragment} {yearFragment.length ? "created" : "created"} {N} jobs for React developers{previousYearFragment}, who earned between ${min_salary} and ${max_salary}.</p>
         )
     }
 }
