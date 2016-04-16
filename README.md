@@ -1,5 +1,5 @@
 # Data Visualization with React and D3
-Histogram in React and D3 showing developer salaries by state and year.
+Histogram in React and D3 showing average developer salaries by state and year.
 
 ## Demo site:
 [http://jamesanaipakos.com/react-d3-data-viz](http://jamesanaipakos.com/react-d3-data-viz)
