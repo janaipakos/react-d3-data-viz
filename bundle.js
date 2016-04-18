@@ -76,7 +76,7 @@
 	    return this.charAt(0).toLowerCase() + this.slice(1);
 	};
 	
-	_reactDom2.default.render(_react2.default.createElement(_MLGraph2.default, { url: 'https://raw.githubusercontent.com/janaipakos/money-laundering-chart/master/public/data/data.csv' }), document.getElementById('mlgraph'));
+	_reactDom2.default.render(_react2.default.createElement(_MLGraph2.default, { url: 'https://raw.githubusercontent.com/janaipakos/react-d3-data-viz/master/public/data/data.csv' }), document.getElementById('mlgraph'));
 
 /***/ },
 /* 2 */
