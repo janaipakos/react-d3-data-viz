@@ -62,9 +62,9 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _MLGraph = __webpack_require__(160);
+	var _Graph = __webpack_require__(160);
 	
-	var _MLGraph2 = _interopRequireDefault(_MLGraph);
+	var _Graph2 = _interopRequireDefault(_Graph);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -76,7 +76,7 @@
 	    return this.charAt(0).toLowerCase() + this.slice(1);
 	};
 	
-	_reactDom2.default.render(_react2.default.createElement(_MLGraph2.default, { url: 'https://raw.githubusercontent.com/janaipakos/react-d3-data-viz/master/public/data/data.csv' }), document.getElementById('mlgraph'));
+	_reactDom2.default.render(_react2.default.createElement(_Graph2.default, { url: 'https://raw.githubusercontent.com/janaipakos/react-d3-data-viz/master/public/data/data.csv' }), document.getElementById('graph'));
 
 /***/ },
 /* 2 */
@@ -19723,13 +19723,13 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var MLGraph = function (_Component) {
-	  _inherits(MLGraph, _Component);
+	var Graph = function (_Component) {
+	  _inherits(Graph, _Component);
 	
-	  function MLGraph() {
-	    _classCallCheck(this, MLGraph);
+	  function Graph() {
+	    _classCallCheck(this, Graph);
 	
-	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(MLGraph).call(this));
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Graph).call(this));
 	
 	    _this.state = {
 	      rawData: [],
@@ -19740,7 +19740,7 @@
 	    return _this;
 	  }
 	
-	  _createClass(MLGraph, [{
+	  _createClass(Graph, [{
 	    key: 'loadRawData',
 	    value: function loadRawData() {
 	      var _this2 = this;
@@ -19821,10 +19821,10 @@
 	    }
 	  }]);
 	
-	  return MLGraph;
+	  return Graph;
 	}(_react.Component);
 	
-	exports.default = MLGraph;
+	exports.default = Graph;
 
 /***/ },
 /* 161 */
