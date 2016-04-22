@@ -6,7 +6,7 @@ import Histogram from '../Histogram';
 import Controls from './Controls';
 
 
-class MLGraph extends Component {
+class Graph extends Component {
   constructor() {
     super();
 
@@ -88,4 +88,4 @@ class MLGraph extends Component {
   }
 }
 
-export default MLGraph;
+export default Graph;
